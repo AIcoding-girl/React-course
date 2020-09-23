@@ -16,4 +16,4 @@ function MyInfo() {
     </div>)
 }
 
-export default MyInfo()
+export default MyInfo
