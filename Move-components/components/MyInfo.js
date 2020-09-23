@@ -1,10 +1,9 @@
 import React from "react"
-import ReactDOM from "react-dom"
 
 function MyInfo() {
     return (<div>
         <h1>
-            Lorem
+            My Favourite Spots
         </h1>
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -17,7 +16,4 @@ function MyInfo() {
     </div>)
 }
 
-ReactDOM.render(
-    <MyInfo />,
-    document.getElementById("root")
-)
+export default MyInfo()
