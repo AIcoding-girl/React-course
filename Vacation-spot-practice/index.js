@@ -4,7 +4,7 @@ import ReactDOM from "react-dom"
 function MyInfo {
     return (<div>
         <h1>
-            Evita
+            Lorem
         </h1>
         <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
