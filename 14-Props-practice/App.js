@@ -6,7 +6,6 @@ function App() {
     return (
         <div>
             <Joke question="lorem lorem lorem" punchLine="lorumgj hsfe"/>
-            <hr/>
             <Joke question="lorem lorem lorem" punchLine="lorumgj hsfe"/>
             <Joke question="lorem lorem lorem" punchLine="lorumgj hsfe"/>
         </div>
