@@ -26,12 +26,23 @@ class App extends React.Component {
 }
 
 // #2
-function Header(props) {
-    return (
-        <header>
-            <p>Welcome, {props.username}!</p>
-        </header>
-    )
+// function Header(props) {
+//     return (
+//         <header>
+//             <p>Welcome, {props.username}!</p>
+//         </header>
+//     )
+// }
+
+// #2 Solution
+class Header extends React.Component {
+    render() {
+        return (
+            <header>
+                <p>Welcome, {this.props.username}!</p>
+            </header>
+        )
+    }
 }
 
 // #3
