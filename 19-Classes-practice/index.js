@@ -4,13 +4,25 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // #1
-function App() {
-    return (
-        <div>
-            <Header />
-            <Greeting />
-        </div>
-    )
+// function App() {
+//     return (
+//         <div>
+//             <Header />
+//             <Greeting />
+//         </div>
+//     )
+// }
+
+// #1 Solution
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <Header />
+                <Greeting />
+            </div>
+        )
+    }
 }
 
 // #2
