@@ -9,7 +9,7 @@ class App extends React.Component {
     // constructor - place where to initialise the values
     constructor() {
         super()
-        this.state = {  // state alwas will be object
+        this.state = {  // state always will be object
             answer: "Yes"
         }
     }
