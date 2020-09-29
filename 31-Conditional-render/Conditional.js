@@ -1,3 +1,4 @@
+// For alternative code organisation, need to watch the video ending again
 import React from 'react'
 
 function Conditional(props) {
