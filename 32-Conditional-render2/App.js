@@ -12,10 +12,15 @@ class App extends Component {
         }
     }
 
+    // &&
+    // true && false (if left side is true, then right side not being returned)
     render() {
         return (
             <div>
-                <h2>You have {this.state.unreadMessages.length} unread messages</h2>
+                {
+                    this.state.unreadMessages.length > 0 &&
+                    <h2>You have {this.state.unreadMessages.length} unread messages</h2>
+                }
             </div>
         )
     }
