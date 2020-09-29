@@ -13,8 +13,10 @@ class App extends Component {
     }
 
     handleChange(event) {
+        // to declare variable of event.target BEFORE setState()
+        const { name, value } = event.target
         this.setState({
-            [event.target.name]: event.target.value
+            [name]: value
         })
     }
 
