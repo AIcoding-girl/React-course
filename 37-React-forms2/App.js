@@ -102,5 +102,6 @@ class App extends Component {
             </div>
         )
     }
+}
 
-    export default App
+export default App
