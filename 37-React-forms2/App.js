@@ -59,7 +59,7 @@ class App extends Component {
                             checked={this.state.isChecked}
                             onChange={this.handleChange}
                         /> Is checked?
-                </label>
+                    </label>
 
                     {/* radio button is using properties from checkbox and input type="text" - `value` and checked */}
 
@@ -71,7 +71,7 @@ class App extends Component {
                             checked={this.state.gender === "male"}
                             onChange={this.handleChange}
                         /> Male
-                </label>
+                    </label>
 
                     <label>
                         <input
@@ -81,7 +81,7 @@ class App extends Component {
                             checked={this.state.gender = "female"}
                             onChange={this.handleChange}
                         /> Female
-                </label>
+                    </label>
 
                     <label>Favourite color:</label>
                     <select
