@@ -1,4 +1,6 @@
 import React from 'react'
+import Header from './Header'
+import MemeGenerator from './MemeGenerator'
 
 // Step 1: create 2 new components - Header and NameGenerator
 // Header will only display things
@@ -6,7 +8,10 @@ import React from 'react'
 
 function App() {
     return (
-        <h1>App</h1>
+        <div>
+            <Header />
+            <MemeGenerator />
+        </div>
     )
 }
 

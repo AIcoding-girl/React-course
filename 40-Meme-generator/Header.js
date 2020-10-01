@@ -2,7 +2,10 @@ import React from 'react'
 
 function Header() {
     return (
-        <h1>Header</h1>
+        <header>
+            <img src="http:www.pngall.com/"></img>
+            <p>Meme Generator</p>
+        </header>
     )
 }
 
