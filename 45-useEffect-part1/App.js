@@ -1,7 +1,20 @@
-import React, { useState } from 'react'
+// componentDidMount
+// componentDidUpdate
+// componentWillUnmount
+
+/*
+Side effects?
+Network request
+Manual DOM manipulation
+Event listeners or timeouts and intervals
+*/
+
+import React, { useState, useEffect } from 'react'
+import randomcolor from 'randomColor'
 
 function App() {
     const [count, setCount] = useState(0)
+    const [color, setColor] = useEffect("")
 
     function increment() {
         setCount(prevCount => prevCount + 1)
@@ -10,6 +23,10 @@ function App() {
     function decrement() {
         setCount(prevCount => prevCount - 1)
     }
+
+    useEffect(() => {
+        setColor(randomcolor())
+    }, [count])
 
     return (
         <div>
