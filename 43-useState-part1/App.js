@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function App() {
-    const [answer, ??? ] = useState("Yes")  // returns an array ["", f()]
+    const [answer] = useState("Yes")  // returns an array ["", f()]
 
     return (
         <div>
